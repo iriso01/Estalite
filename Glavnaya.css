@@ -1,0 +1,286 @@
+.grid{
+    
+    display: grid;
+    margin-left: -1%;
+    margin-top: -1%;
+    width: 101%;
+    margin-right: -30%;
+    overflow-x: hidden;
+}
+.back{
+    width: 101%;
+    margin-top: -0.1%;
+    
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Montserrat-Regular.otf");
+}
+
+#adress{
+display:grid;
+grid-template-columns: 5fr 1fr;
+background-color:  #660000;
+height:15%;
+width: 101%;
+}
+.head{
+    margin-left:4%;
+    width:20%;
+}
+.head1{
+    padding-top: 8%;
+}
+.head{
+    margin-top: 1.5%;
+}
+.head, .head1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+color: #FFFFFF;
+
+}
+.slova{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+width: 80%;
+height: 10%;
+margin-left: 22%;
+color: black;
+}
+.blackrect{
+margin-top:-27%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+margin-left: 25%;
+color: #FFFFFF;
+display: grid;
+grid-template-columns: 5fr 3fr;
+grid-template-rows: 1fr 1fr;
+}
+#text1,#text2, #text3, #text4{
+    width: 100%;
+}
+.propose img{
+    width: 50%;
+    padding-top: 8%;
+    padding-left: 25%;
+}
+.propose a{
+    width: 100%;
+    display: inline-block;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 100;
+font-size: 24px;
+margin-left: 25%;
+color: #FFFFFF;
+    padding-top: 3%;
+    text-decoration: none;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.propose{
+    width: 101%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color:#6E4E44;
+}
+.textagent{
+padding:3%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+width:57%;
+border-bottom:2px solid #660000;
+margin-left:22%;
+
+}
+.agent h2,p{
+    display:grid;
+    padding-left:5%;
+}
+.agent h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+color: #740A0A;
+width:100%
+}
+.agent p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+width: 100%;
+}
+.agent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr ;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+.footer{
+    margin-top:3%;
+
+}
+.backfoot{
+    width: 101%;
+}
+#footadres,#footnumber{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+width: 100%;
+
+}
+#footadres{
+    margin-left: 17%;
+margin-top: -11%;
+width: 13%;
+}
+
+#footnumber{
+    margin-left: 12%;
+    margin-top: 1%;
+    width: 15%;
+}
+.topmenu li{
+    list-style-type: none;
+}
+.topmenu  a{
+    display: grid;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.submenu{
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1.2fr 1fr;
+    margin-left: 25%;
+}
+.topmenu{
+    margin-top: -32%;
+    margin-bottom: 30%;
+}
+@media (max-width:1157px) {
+#footadres{
+    font-size: 10px;
+    margin-left: 18%;
+    margin-top: -11%;
+    width: 9%;
+}
+#footnumber{
+    font-size: 10px;
+    margin-left: 14%;
+    margin-top: 0%;
+    width: 10%;
+}
+.slova{
+    margin-left: 26%;
+    width: 50%;
+}
+.head,.head1{
+    font-size: 15px;
+}
+    .agent{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 15%;
+    
+    }
+.blackrect{
+    font-size: 15px;
+}
+    #primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:18px;
+	padding:0 15px;
+	font-family:'Montserrat';
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#primary_nav_wrap ul ul a
+{
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+}

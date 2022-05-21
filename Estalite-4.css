@@ -1,0 +1,8 @@
+
+    #footnumber{
+        margin-top: 0;
+    }
+    @media (max-width:1157px){
+    .footer1{
+        margin-top:60%;
+    }}

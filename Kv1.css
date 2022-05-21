@@ -1,0 +1,195 @@
+.grid{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.kvadrat{
+
+background-color: #6E4E44;
+height: inherit;
+}
+.infkv{
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 65%;
+    width:100%;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #000000;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+@keyframes fadeIm-1 { 
+    from { 
+        opacity: 1; 
+    } 
+
+    25% { 
+        opacity: 0; 
+    } 
+
+    50% { 
+        opacity: 0; 
+    } 
+
+    75% { 
+        opacity: 0; 
+    } 
+
+    to { 
+        opacity: 0; 
+    } 
+} 
+
+@keyframes fadeIm-2 { 
+    from { 
+        opacity: 0; 
+    } 
+
+    25% { 
+        opacity: 1; 
+    } 
+
+    50% { 
+        opacity: 0; 
+    } 
+
+    75% { 
+        opacity: 0; 
+    } 
+
+    to { 
+        opacity: 0; 
+    } 
+} 
+
+@keyframes fadeIm-3 { 
+    from { 
+        opacity: 0; 
+    } 
+
+    25% { 
+        opacity: 0; 
+    } 
+
+    50% { 
+        opacity: 1; 
+    } 
+
+    75% { 
+        opacity: 0; 
+    } 
+
+    to { 
+        opacity: 0; 
+    } 
+} 
+
+@keyframes fadeIm-4 { 
+    from { 
+        opacity: 0; 
+    } 
+
+    25% { 
+        opacity: 0; 
+    } 
+
+    50% { 
+        opacity: 0; 
+    } 
+
+    75% { 
+        opacity: 1; 
+    } 
+
+    to { 
+        opacity: 0; 
+    } 
+} 
+
+@keyframes fadeIm-5 { 
+    from { 
+        opacity: 0; 
+    } 
+
+    25% { 
+        opacity: 0; 
+    } 
+
+    50% { 
+        opacity: 0; 
+    } 
+
+    75% { 
+        opacity: 0; 
+    } 
+
+    to { 
+        opacity: 1; 
+    } 
+} 
+
+.im-1 { 
+    position: absolute; 
+  
+    animation: fadeIm-1 40s ease-in infinite; 
+} 
+
+.im-2 { 
+    position: absolute; 
+   
+    animation: fadeIm-2 40s ease-in infinite; 
+} 
+
+.im-3 { 
+    position: absolute; 
+   
+    animation: fadeIm-3 40s ease-in infinite; 
+} 
+
+.im-4 { 
+    position: absolute; 
+ 
+    animation: fadeIm-4 40s ease-in infinite; 
+} 
+
+.im-5 { 
+    position: absolute; 
+   
+    animation: fadeIm-5 40s ease-in infinite; 
+} 
+
+.material{
+    margin-left: 25%;
+    width: 45%;
+    margin-top: 5%;
+
+}
+.material img{
+    border:20px solid #6E4E44;
+}
+@keyframes opacity { 
+    from { 
+        opacity: 100%; 
+    } 
+
+    to { 
+        opacity: 0; 
+    } 
+}
+@media (max-width:1157px) {
+    .material{
+        margin-left: 14%;
+        width: 45%;
+        margin-top: 5%;
+    
+    }
+    .infkv{
+        margin-top: 95%;
+    }
+}
+

@@ -1,0 +1,116 @@
+#zagolovok{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 16%;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+margin-top: 3%;
+}
+.grid1{
+    display: grid;
+    margin-left: -1%;
+  margin-top: -1%;
+  width: 101%;
+
+}
+#zagolovok a{
+    display: grid;
+    width: 100%;
+    color:  #6E4E44;
+    
+}
+.tabkvart{
+    display: grid;
+    grid-gap:4%;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: auto;
+    margin-left: 12%;
+    margin-top:5%;
+}
+.kolvo{
+    display:grid;
+    width:100%;
+    grid-template-columns: 28% 35% 40%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin-top: -28%;
+    margin-left: 15%;
+}
+.adr,.cost{
+    display:grid;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+   
+    }
+.adr{
+    margin-top: 0%;
+    margin-left:4%;
+    font-size: 15px;
+}
+.cost{
+    margin-top: -2%;
+    margin-left:3%;
+    font-size: 28px;
+    font-weight: 500;
+}
+.footer1{
+    height: 50%;
+    margin-top: 20%;
+}
+.footer{
+    margin-top: 20%;
+}
+@media (max-width:1157px){
+    #zagolovok{
+        grid-template-columns: 0.9fr 0.7fr;
+        margin-left: 18%;
+        font-size: 28px;
+
+    }
+    .tabkvart{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+    margin-top:5%;
+
+    }
+    .kolvo{
+        grid-template-columns: 22% 25% 40%;
+        font-size: 15px;
+        margin-top: -19%;
+        margin-left: 10%;
+    }
+    .adr,.cost{
+        font-family: 'Montserrat';
+        font-style: normal;
+        color: white;
+       
+        }
+    .adr{
+        display: inline-block;
+        width:100%;
+        margin-top: -12%;
+        margin-left:4%;
+    }
+
+    .cost{
+       display:inline-block;
+       width: 100%;
+        margin-top: -1%;
+        margin-left:3%;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .footer{
+        margin-top: 60%;
+    }
+    .footer1{
+        margin-top: 10%;
+    }
+    
+}
