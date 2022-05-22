@@ -17,6 +17,7 @@
 @font-face {
   font-family: "Montserrat";
   src: url("Montserrat-Regular.otf");
+  src: url("Montserrat-Regular.woff");
 }
 
 #adress {
@@ -165,7 +166,7 @@
 #footadres {
   margin-left: 17%;
   margin-top: -11%;
-  width: 13%;
+  width: 17%;
 }
 
 #footnumber {
@@ -198,25 +199,27 @@
   margin-top: -32%;
   margin-bottom: 30%;
 }
-
+.submenu li a:hover{
+  text-transform: uppercase;
+}
 @media (max-width: 1157px) {
 
   #footadres {
-    font-size: 15px;
+    font-size: 17px;
     margin-left: 18%;
     margin-top: -11%;
-    width: 9%;
+    width: 15%;
   }
 
   #footnumber {
-    font-size: 15px;
+    font-size: 17px;
     margin-left: 14%;
     margin-top: 0%;
-    width: 10%;
+    width: 18%;
   }
 
   .slova {
-    margin-left: 26%;
+    margin-left: 28%;
     width: 50%;
   }
 
@@ -298,5 +301,6 @@
     margin-left: 20%;
   }
 }
+
 
 /*# sourceMappingURL=Grid.css.map */
