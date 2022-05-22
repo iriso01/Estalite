@@ -14,9 +14,10 @@
 }
 
 
-font-face {
+@font-face {
   font-family: "Montserrat";
   src: url("Montserrat-Regular.otf");
+  src:url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 }
 
 #adress {
