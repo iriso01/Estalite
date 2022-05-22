@@ -17,7 +17,6 @@
 @font-face {
   font-family: "Montserrat";
   src: url("Montserrat-Regular.otf");
-  src:url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 }
 
 #adress {
@@ -65,7 +64,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  margin-left: 25%;
+  margin-left: 24%;
   color: #FFFFFF;
   display: grid;
   grid-template-columns: 5fr 3fr;
@@ -203,14 +202,14 @@
 @media (max-width: 1157px) {
 
   #footadres {
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 18%;
     margin-top: -11%;
     width: 9%;
   }
 
   #footnumber {
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 14%;
     margin-top: 0%;
     width: 10%;
@@ -221,17 +220,21 @@
     width: 50%;
   }
 
-  .head, .head1 {
-    font-size: 20px;
+  .head {
+    font-size: 21px;
   }
-
+  .head1{
+    width: 100%;
+    margin-right: 3%;
+    font-size: 19px;
+  }
   .agent {
     grid-template-columns: 1fr 1fr;
     margin-left: 15%;
   }
 
   .blackrect {
-    font-size: 15px;
+    font-size: 19px;
   }
 
   #primary_nav_wrap {
